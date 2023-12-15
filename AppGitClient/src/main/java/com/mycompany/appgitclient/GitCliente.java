@@ -47,5 +47,8 @@ public class GitCliente {
         this.licencia = licencia;
     }
     
-
+    @overrride
+    public String toString() {
+        return "GitClient(" + "cliente =" + cliente + ", version =" + version + ", sistemOper =" + sistemOper + ", licencia =" + licencia + ")";
+    }
 }
